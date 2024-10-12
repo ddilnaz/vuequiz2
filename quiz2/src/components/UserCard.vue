@@ -2,7 +2,7 @@
     <div class="user-card" @click="$emit('click')">
       <h2>{{ user.name }}</h2>
       <p>{{ user.email }}</p>
-      <slot></slot> <!-- Slot for custom content -->
+      <slot></slot> 
     </div>
   </template>
   
